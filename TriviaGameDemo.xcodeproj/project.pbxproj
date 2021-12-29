@@ -11,6 +11,8 @@
 		8ED8730D277CE5A400D3FC81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8730C277CE5A400D3FC81 /* ContentView.swift */; };
 		8ED8730F277CE5A700D3FC81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED8730E277CE5A700D3FC81 /* Assets.xcassets */; };
 		8ED87312277CE5A700D3FC81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED87311277CE5A700D3FC81 /* Preview Assets.xcassets */; };
+		8ED8731A277CE75B00D3FC81 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87319277CE75B00D3FC81 /* PrimaryButton.swift */; };
+		8ED8731D277CE95A00D3FC81 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8731C277CE95A00D3FC81 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8ED8730C277CE5A400D3FC81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8ED8730E277CE5A700D3FC81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ED87311277CE5A700D3FC81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8ED87319277CE75B00D3FC81 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		8ED8731C277CE95A00D3FC81 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				8ED8730A277CE5A400D3FC81 /* TriviaGameDemoApp.swift */,
-				8ED8730C277CE5A400D3FC81 /* ContentView.swift */,
+				8ED8731B277CE80200D3FC81 /* Views */,
+				8ED87318277CE72900D3FC81 /* Components */,
 				8ED8730E277CE5A700D3FC81 /* Assets.xcassets */,
 				8ED87310277CE5A700D3FC81 /* Preview Content */,
+				8ED8731C277CE95A00D3FC81 /* Extensions.swift */,
 			);
 			path = TriviaGameDemo;
 			sourceTree = "<group>";
@@ -65,6 +71,22 @@
 				8ED87311277CE5A700D3FC81 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8ED87318277CE72900D3FC81 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8ED87319277CE75B00D3FC81 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8ED8731B277CE80200D3FC81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8730C277CE5A400D3FC81 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED8731A277CE75B00D3FC81 /* PrimaryButton.swift in Sources */,
 				8ED8730D277CE5A400D3FC81 /* ContentView.swift in Sources */,
 				8ED8730B277CE5A400D3FC81 /* TriviaGameDemoApp.swift in Sources */,
+				8ED8731D277CE95A00D3FC81 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
