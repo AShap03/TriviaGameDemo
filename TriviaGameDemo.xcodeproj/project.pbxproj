@@ -19,6 +19,7 @@
 		8ED87326277CF11A00D3FC81 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87325277CF11A00D3FC81 /* AnswerRow.swift */; };
 		8ED87328277CF52F00D3FC81 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87327277CF52F00D3FC81 /* TriviaView.swift */; };
 		8ED8732A277CF6B400D3FC81 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87329277CF6B400D3FC81 /* Trivia.swift */; };
+		8ED8732C277CFA7A00D3FC81 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8732B277CFA7A00D3FC81 /* TriviaManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8ED87325277CF11A00D3FC81 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		8ED87327277CF52F00D3FC81 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
 		8ED87329277CF6B400D3FC81 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		8ED8732B277CFA7A00D3FC81 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				8ED8730E277CE5A700D3FC81 /* Assets.xcassets */,
 				8ED87310277CE5A700D3FC81 /* Preview Content */,
 				8ED8731C277CE95A00D3FC81 /* Extensions.swift */,
+				8ED8732B277CFA7A00D3FC81 /* TriviaManager.swift */,
 			);
 			path = TriviaGameDemo;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				8ED87328277CF52F00D3FC81 /* TriviaView.swift in Sources */,
 				8ED8732A277CF6B400D3FC81 /* Trivia.swift in Sources */,
 				8ED8731A277CE75B00D3FC81 /* PrimaryButton.swift in Sources */,
+				8ED8732C277CFA7A00D3FC81 /* TriviaManager.swift in Sources */,
 				8ED87326277CF11A00D3FC81 /* AnswerRow.swift in Sources */,
 				8ED8730D277CE5A400D3FC81 /* ContentView.swift in Sources */,
 				8ED87324277CF0C300D3FC81 /* Answer.swift in Sources */,
