@@ -13,6 +13,10 @@
 		8ED87312277CE5A700D3FC81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED87311277CE5A700D3FC81 /* Preview Assets.xcassets */; };
 		8ED8731A277CE75B00D3FC81 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87319277CE75B00D3FC81 /* PrimaryButton.swift */; };
 		8ED8731D277CE95A00D3FC81 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8731C277CE95A00D3FC81 /* Extensions.swift */; };
+		8ED8731F277CECFA00D3FC81 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8731E277CECFA00D3FC81 /* QuestionView.swift */; };
+		8ED87321277CEDB600D3FC81 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87320277CEDB600D3FC81 /* ProgressBar.swift */; };
+		8ED87324277CF0C300D3FC81 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87323277CF0C300D3FC81 /* Answer.swift */; };
+		8ED87326277CF11A00D3FC81 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED87325277CF11A00D3FC81 /* AnswerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		8ED87311277CE5A700D3FC81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8ED87319277CE75B00D3FC81 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		8ED8731C277CE95A00D3FC81 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8ED8731E277CECFA00D3FC81 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		8ED87320277CEDB600D3FC81 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		8ED87323277CF0C300D3FC81 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		8ED87325277CF11A00D3FC81 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 				8ED8730A277CE5A400D3FC81 /* TriviaGameDemoApp.swift */,
 				8ED8731B277CE80200D3FC81 /* Views */,
 				8ED87318277CE72900D3FC81 /* Components */,
+				8ED87322277CF09700D3FC81 /* Models */,
 				8ED8730E277CE5A700D3FC81 /* Assets.xcassets */,
 				8ED87310277CE5A700D3FC81 /* Preview Content */,
 				8ED8731C277CE95A00D3FC81 /* Extensions.swift */,
@@ -77,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				8ED87319277CE75B00D3FC81 /* PrimaryButton.swift */,
+				8ED87320277CEDB600D3FC81 /* ProgressBar.swift */,
+				8ED87325277CF11A00D3FC81 /* AnswerRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -85,8 +96,17 @@
 			isa = PBXGroup;
 			children = (
 				8ED8730C277CE5A400D3FC81 /* ContentView.swift */,
+				8ED8731E277CECFA00D3FC81 /* QuestionView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8ED87322277CF09700D3FC81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8ED87323277CF0C300D3FC81 /* Answer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED8731F277CECFA00D3FC81 /* QuestionView.swift in Sources */,
 				8ED8731A277CE75B00D3FC81 /* PrimaryButton.swift in Sources */,
+				8ED87326277CF11A00D3FC81 /* AnswerRow.swift in Sources */,
 				8ED8730D277CE5A400D3FC81 /* ContentView.swift in Sources */,
+				8ED87324277CF0C300D3FC81 /* Answer.swift in Sources */,
 				8ED8730B277CE5A400D3FC81 /* TriviaGameDemoApp.swift in Sources */,
+				8ED87321277CEDB600D3FC81 /* ProgressBar.swift in Sources */,
 				8ED8731D277CE95A00D3FC81 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
